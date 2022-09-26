@@ -31,7 +31,7 @@ line_width = 98
 page = 1
 end_page = 16
 Age = None
-Teams = {"Arsenal"}
+Teams = None
 
 AgeList = "ALL"
 if Age is not None:
