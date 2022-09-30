@@ -1,5 +1,6 @@
 # FootballCritic-Team-And-Age-Filter-Scraper
-Scrapes players names from based on age and team parameters set by the user
+
+Scrapes players names from FootballCritic website based on age and team parameters set by the user
 
 Requires Chrome webdriver found here : https://chromedriver.chromium.org/downloads
 
