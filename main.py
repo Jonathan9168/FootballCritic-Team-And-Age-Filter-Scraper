@@ -1,10 +1,13 @@
 import time
 from selenium import webdriver
+import chromedriver_autoinstaller
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
-
 from selenium.webdriver.support import expected_conditions as EC
+
+chromedriver_autoinstaller.install()
+
 '''Initiating driver'''
 url = 'https://www.footballcritic.com/premier-league/season-2022-2023/player-stats/all/2/65452'
 chromeOption = Options()
@@ -29,7 +32,7 @@ VALID TEAMS LIST = ['Arsenal', 'Aston Villa', 'Bournemouth', 'Brentford', 'Brigh
 valid_list = []
 line_width = 98
 page = 1
-end_page = 16
+end_page = 19
 Age = None
 Teams = None
 
