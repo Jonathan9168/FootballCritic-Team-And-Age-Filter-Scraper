@@ -32,7 +32,7 @@ VALID TEAMS LIST = ['Arsenal', 'Aston Villa', 'Bournemouth', 'Brentford', 'Brigh
 valid_list = []
 line_width = 98
 page = 1
-end_page = 19
+end_page = 20
 Age = None
 Teams = None
 
